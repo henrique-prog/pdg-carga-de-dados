@@ -8,12 +8,10 @@ A carga de dados se dá a partir do sistema de recursos humanos do órgão para 
 
 ### Fluxo proposto:
 
-```mermaid
-sequenceDiagram
-Dep RH -->> Dep TI: Faz a extração SIAPE e transformação <br/>dos dados para a planilha, conforme MODELO
-Dep TI-->>SISPG: Carrega na base do SISPG a partir<br/> do ETL Pentaho
-Note right of SISPG: No Ministério da Economia o <br/>processo foi alinhado com a <br/>DGP,que extrai os dados do <br/>SIAPE e montagem da planilha<br/> de carga.
-```
+> **Dep RH -->>** Faz a extração SIAPE e transformação <br/>dos dados para a planilha, conforme MODELO
+>**Dep TI-->>** Carrega na base do SISPG a partir do ETL Pentaho
+
+>>**Note**  No Ministério da Economia o processo foi alinhado com a DGP, que extrai os dados do SIAPE e montagem da planilha de carga.
 
 ## Passo a passo para utilização da solução
 
