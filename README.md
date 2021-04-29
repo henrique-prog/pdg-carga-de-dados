@@ -15,8 +15,7 @@ Dep TI-->>SISPG: Carrega na base do SISPG a partir<br/> do ETL Pentaho
 Note right of SISPG: No Ministério da Economia o <br/>processo foi alinhado com a <br/>DGP,que extrai os dados do <br/>SIAPE e montagem da planilha<br/> de carga.
 ```
 
-## Requisitos para utilização da solução
-
+## Passo a passo para utilização da solução
 
 
 > **1.**  Extrair todos os arquivos do .ZIP.
