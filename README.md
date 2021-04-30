@@ -16,7 +16,7 @@ A carga de dados se dá a partir do sistema de recursos humanos do órgão para 
 ## Passo a passo para utilização da solução
 
 
-> **1.**  Extrair todos os arquivos do .ZIP.
+> **1.**  Baixar todos os arquivos.
 
 > **2.** Petanho precisa estar configurado e instalado com a biblioteca JTDS instalada em **C:\data-integration\lib** (copiar o arquivo .JAR aqui). Disponível para download em:  https://sourceforge.net/projects/jtds/
 
