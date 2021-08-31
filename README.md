@@ -6,6 +6,8 @@ Descreve-se abaixo sugestões para procedimentos no processo de carga e manuten�
 
 A carga de dados se dá a partir do sistema de recursos humanos do órgão para a base do SISPG pela extração dos dados do SIAPE. As tabelas que devem ser populadas são: **Unidade, Pessoa e Função**.
 
+Os campos **"tipoUnidadeId" e "tipoFuncaoUnidadeId" da tabela "Unidade"** não relacionam-se com o PGD. Essa aplicação, na SUSEP faz parte de um sistema maior, que integra RH, etc. Durante o saneamento das tabelas para o PGD ficaram esses campos. Podem desconsiderá-los, preenchendo null por exemplo.
+
 ### Fluxo proposto:
 
 > **Dep RH -->>** Faz a extração SIAPE e transformação <br/>dos dados para a planilha, conforme MODELO
