@@ -1,5 +1,17 @@
 # Sugestão para Carga de dados do Programa de Gestão!
 
+O processo de carga do sistema do programa de gestão- SISGP ainda não está automatizado, portanto é necessária a extração dos dados do Sistema Integrado de Administração de Recursos Humanos (Siape) para subsidiá-lo. Como boa prática, para melhor execução do SISGP e funcionamento do programa, sugerimos que sejam seguidas as recomendações abaixo para extração dos dados do SIAPE: 
+
+O processo de extração do SIAPE e carga do SISGP deve ocorrer com a maior frequência possível para que as informações estejam sempre atualizadas. Consideramos razoável que o processo de extração/carga seja realizado semanalmente. 
+
+Os perfis de chefia e servidor são atribuídos pelo SISGP com base nas informações extraídas do SIAPE, por isso é importante que esses dados reflitam a realidade de trabalho do participante, assim suas chefias terão condições de pactuar planos de trabalho, fazer avaliação das entregas e até autorizar suas férias. Assim, sugerimos a extração dos dados com base na UORG de emissão dos agentes públicos, pois esta contemplará, além dos servidores efetivos, os servidores sem vínculo e temporários e suas unidades de efetiva atuação. 
+
+Caso não seja possível a extração com base na UORG de emissão, deverão ser usadas, preferencialmente nesta ordem, as UORGs de exercício, de localização e, por fim, de lotação. Importante ressaltar que, para o SISGP, todas essas informações são denominadas “unidade de lotação”. 
+
+Caso seja necessário alterar a lotação e/ou exercício do servidor para adequação à realidade do programa de gestão, orienta-se que seja feito ato administrativo próprio para este fim, a critério do órgão/entidade. 
+
+Excepcionalmente, em situações em que não seja possível a adequação sugerida anteriormente, recomendamos que a chefia que acompanha a execução das atividades do participante, reporte formalmente à chefia prevista no sistema do programa de gestão as informações necessárias para que este possa efetivar os devidos registros.
+
 Descreve-se abaixo sugestões para procedimentos no processo de carga e manutenção de dados no Sistema de Programa de Gestão, aqui chamado SISPG, ferramenta de apoio tecnológico para acompanhamento e controle do cumprimento de metas e alcance de resultados nos termos da Instrução Normativa Nº 65, de 30 de julho de 2020. Esse é um documento técnico destinado às áreas de tecnologia dos órgãos que adotaram o SISPG como ferramenta de gestão do teletrabalho. 
 
 > **Importante:** Este manual não tem caráter exaustivo, sendo portanto, ferramenta de apoio à compreensão dos procedimentos a serem adotados para a carga do banco de dados.
